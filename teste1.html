@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulas DOM</title>
+    <style>
+        body {
+            background: rgb(132, 196, 233);
+            font: normal 15pt Arial;
+        }
+        
+        #interface {
+            text-align: center;
+            font-size: 25px;
+        }
+
+        #fundo{
+            background: white;
+            border-radius: 10px;
+            width: 600px;
+            padding: 15px;
+            margin: auto;
+            text-align: left;
+            padding-top: 20px;
+            line-height: 35px;
+            box-shadow: 3px 3px 10px black;
+        }
+        #msg{
+            font-size: 20px;            
+        }
+        
+        #imgs{
+            width: 300px;
+            height: 250px;
+            margin: auto;
+            border-radius: 50%;
+        }
+    </style>
+
+   
+</head>
+
+<body>
+
+    
+<div id = "interface">
+    <h1>Verificador de idade</h1>
+    <div id = "fundo">
+        Ano de Nascimento: <input type="number" id ="nascimento" style="font-size: 20px;">
+        <br>Sexo: <input type="radio" id = "masculino" name="radsex" checked> Masculino <input type="radio" name="radsex" id = "feminino"> Feminino
+        <br><input type="button" value="Verificar" onclick="acao()" id = "Verificador" style="width: 80px; height: 25px">
+    
+        <div id = "msg">
+            Preencha os dados a cima e veja o resultado!
+            
+        </div>
+    </div>
+    
+</div>
+
+    <footer>
+        <p style="text-align: center;">&copy; Gustavo Souza</p>
+    </footer>
+
+    <script>
+        function acao(){
+            
+        }
+       
+    
+           
+            
+        
+
+    </script>
+</body>
+
+</html>
